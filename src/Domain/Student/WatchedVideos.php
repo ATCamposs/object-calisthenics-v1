@@ -27,7 +27,7 @@ class WatchedVideos implements Countable
 
     public function dateOfFirstVideo(): DateTimeInterface
     {
-        $this->watchedVideos->sort(fn (DateTimeInterface $dateA, DateTimeInterface $dateB) => $dateA <=> $dateB);
+        $this->videos->sort(fn (DateTimeInterface $dateA, DateTimeInterface $dateB) => $dateA <=> $dateB);
         
         return $this->videos->first()->value;
     }

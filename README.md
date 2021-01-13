@@ -24,3 +24,19 @@ Você pode, para reduzir complexidade, envolver somente os tipos primitivos que 
 **Coleções de primeira classe**
 Se eu tenho uma coleção, a unica propriedade da minha classe deve ser essa coleção.
 _Tenha classes específicas de coleção_
+
+
+**Apenas um ponto por linha**
+"basicamente" não se deve falar com estranhos, não entrar fundo em um objeto, para manter a classe aberta para expansão mas fechada para modificação.
+
+_Fluent Interface não entra nessa regra_
+
+**NUNCA abrevie JAMAIS**
+Existem 2 casos onde você pode se sentir tentado a abreviar:
+Se isso se repete em muitas partes do código:
+Então você vai querer isolar.
+
+
+Se esse método tem o nome muito grande:
+Se seu método faz mais de uma coisa ou é muito específico, pode ser refatorado.
+
