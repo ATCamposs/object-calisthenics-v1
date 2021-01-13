@@ -7,4 +7,20 @@
 
 
 **Ter apenas 1 nível de identação por método**
+**NUNCA use ELSE**
+Você pode usar early return. ou modificar sua estrutura(desde que não afete as regras de negócio) com um fail-fast por exemplo, para que o else deixe de ser necessário.
 
+Existe uma métrica muito famosa para saber quão complexo nosso código está. O nome desta métrica é Complexidade Ciclomática.
+
+O cálculo dessa métrica é relativamente complexo, mas basicamente, quanto mais ifs e elses, mais complexo nosso método. Esse cálculo nos diz quantos possíveis caminhos nosso código pode percorrer.
+
+Ao evitar o uso de else, nós escrevemos códigos com uma Complexidade Ciclomática menor, deixando menos “bifurcações” em nosso código, o que facilita a leitura.
+
+
+**Envolva TODOS os seus tipos primitivos**
+Você pode, para reduzir complexidade, envolver somente os tipos primitivos que tenham comportamento.
+
+
+**Coleções de primeira classe**
+Se eu tenho uma coleção, a unica propriedade da minha classe deve ser essa coleção.
+_Tenha classes específicas de coleção_
