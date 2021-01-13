@@ -40,3 +40,13 @@ Então você vai querer isolar.
 Se esse método tem o nome muito grande:
 Se seu método faz mais de uma coisa ou é muito específico, pode ser refatorado.
 
+
+**Classes pequenas**
+São mais faceis de se manter e também são mais específicas.
+Um método não deve ocupar mais da "metade do monitor"
+
+**Apenas duas Propriedades**
+Tentar ter no máximo 2 propriedades por classe.
+
+
+Objects Calisthenics são exercicios de programação, são 9 regras formais inventadas por Jeff Bay em seu livro 'The ThoughtWorks Anthology'
