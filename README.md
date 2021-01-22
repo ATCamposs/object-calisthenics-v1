@@ -1,3 +1,8 @@
+ **Design Patterns: Padrões Comportamentais**
+ 
+Objects Calisthenics são exercicios de programação, são 9 regras formais inventadas por Jeff Bay em seu livro 'The ThoughtWorks Anthology'
+ 
+ 
  - **Não usar getter e setters**
     - Utilizar métodos de acesso a nossas propriedades faz sentido, desde que nós não utilizemos o retorno para tomar decisões que poderiam estar encapsuladas na classe.
 
@@ -54,6 +59,3 @@ _Tenha classes específicas de coleção_
  - **Apenas duas Propriedades**
 
     - Tentar ter no máximo 2 propriedades por classe.
-
-
-Objects Calisthenics são exercicios de programação, são 9 regras formais inventadas por Jeff Bay em seu livro 'The ThoughtWorks Anthology'
